@@ -1,6 +1,9 @@
 version: 2
 jobs:
   build:
+    branches:
+      only:
+        - master
     working_directory: ~/CITest
     docker:
       - image: circleci/node:8-browsers
