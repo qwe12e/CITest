@@ -9,4 +9,5 @@ export class AppComponent {
     title = 'deneme';
     asd = 5;
     c = this.asd + 5;
+    deneme = 'test';
 }
